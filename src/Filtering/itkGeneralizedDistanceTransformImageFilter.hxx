@@ -20,8 +20,8 @@ limitations under the License.
 
 =========================================================================*/
 
-#ifndef __itkGeneralizedDistanceTransformImageFilter_txx
-#define __itkGeneralizedDistanceTransformImageFilter_txx
+#ifndef itkGeneralizedDistanceTransformImageFilter_hxx
+#define itkGeneralizedDistanceTransformImageFilter_hxx
 
 #include <limits>
 

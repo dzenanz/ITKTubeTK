@@ -65,7 +65,7 @@ set( TubeTK_Filtering_H_Files
   Filtering/tubeTubeMathFilters.h )
 
 set( TubeTK_Filtering_HXX_Files
-  Filtering/itkGeneralizedDistanceTransformImageFilter.txx
+  Filtering/itkGeneralizedDistanceTransformImageFilter.hxx
   Filtering/itkImageRegionSplitter.hxx
   Filtering/itktubeAnisotropicCoherenceEnhancingDiffusionImageFilter.hxx
   Filtering/itktubeAnisotropicDiffusionTensorFunction.hxx

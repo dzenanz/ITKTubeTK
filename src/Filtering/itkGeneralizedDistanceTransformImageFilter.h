@@ -329,7 +329,7 @@ private:
 
 
 #ifndef ITK_MANUAL_INSTANTIATION
-#include "itkGeneralizedDistanceTransformImageFilter.txx"
+#include "itkGeneralizedDistanceTransformImageFilter.hxx"
 #endif
 
 #endif
