@@ -29,48 +29,14 @@ TubeTK offers various interface layers:
 Installing TubeTK
 =================
 
-There are now a full set of wheels for itk-TubeTK on Pypi, and they are
-SOMEWHAT compatible with ITK v5.4. Regretfully getting them to work
-required changes to ITK, and those changes aren't incorporated into
-ITK v5.4. We will have to wait for the ITK v6.0 release, which will
-likely be a few months from now.
-
-So, for 90+% of the functionality working (certain Spatial Object I/O
-methods will fail), you can use itk-tubetk 1.4.0 from pypi
-
-    > pip install itk-tubetk
-
-HOWEVER, for 100% functionality working, IF you are running Windows
-with Python 3.11, I have created a full set of wheels for ITK,
-ITKMinimumPathExtraction, and ITKTubeTK and uploaded them to the
-TEST pypi server.  You can install them into a new Python venv (one
+There is now a full set of wheels for itk-TubeTK on PyPI.
+For full functionality they should be coupled with ITK 5.4.1 or later.
+You can install them into a new Python venv (one
 without ITK already installed), via
 
-   > python -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ itk itk-minimalpathextraction itk-tubetk
-
-This should then install the following packages/wheels, ON WINDOWS machines
-with Python 3.11 ONLY:
-
+```sh
+python -m pip install itk-tubetk
 ```
-itk                       5.4.0.20240629
-itk-core                  5.4.0.20240629
-itk-filtering             5.4.0.20240629
-itk-io                    5.4.0.20240629
-itk-minimalpathextraction 2.0.0.20240629
-itk-numerics              5.4.0.20240629
-itk-registration          5.4.0.20240629
-itk-segmentation          5.4.0.20240629
-itk-tubetk                1.4.0.20240629
-```
-
-I will also upload Ubuntu 22.04 wheels to the PyPiTEST server. If you
-need other wheels, please email me at stephen@aylward.org. However, my
-time (like everyone's time) is quite booked so there will be a delay.
-I will also get ITK master updated asap to build with the latest TubeTK
-and MinimalPathExtraction...
-
-Thanks for your patience!
-
 Installing Additional Examples
 ==============================
 
@@ -178,8 +144,6 @@ the *LICENSE* file for details.
 
 References
 ----------
-
-( See also [Stephen R. Aylward @ Google Scholar](https://scholar.google.com/citations?user=jHEgTSwAAAAJ&hl=en) )
 
 * D.F. Pace, S.R. Aylward, M. Niethammer, "A Locally Adaptive Regularization Based on Anisotropic Diffusion for Deformable Image Registration of Sliding Organs," Medical Imaging, IEEE Transactions on , vol.32, no.11, pp.2114,2126, Nov. 2013 doi: 10.1109/TMI.2013.2274777
 * E. Bullitt, D. Zeng, B. Mortamet, A. Ghosh, S. R. Aylward, W. Lin, B. L. Marks, and K. Smith, "The effects of healthy aging on intracerebral blood vessels visualized by magnetic resonance angiography," NEUROBIOLOGY OF AGING, vol. 31, no. 2, pp. 290-300, Feb. 2010.
